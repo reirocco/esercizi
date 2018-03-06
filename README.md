@@ -1,2 +1,2 @@
-# matrici
-esercizi con le matrici
+# esercizi
+esercizi in c
