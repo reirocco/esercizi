@@ -20,12 +20,13 @@ void stampamatrici(int matn[][MAX],int n);
 
 int main(){
 	srand(time(NULL));
+	
+	//inizializzo 3 matrici e una variabile intera
 	int mat1[MAX][MAX];
 	int mat2[MAX][MAX];
 	int matsomma[MAX][MAX];
-
 	int n;
-
+	//chiediamo all'utente quale è la dimensione della nostra matrice quadrata
 	printf("quale è la dimensione della matrice quadrata?");
 	scanf("%d",&n);	
 	
@@ -46,7 +47,7 @@ int main(){
 }
 
 
-
+/*data in input una matrice e il numero di righe e colonne, riempe la matrice con numeri casuali da 0 a 99.*/
 void getmatrici(int matn[][MAX],int n){
 	int j,k;	
 	for( j = 0 ;j < n ;j++){
@@ -57,7 +58,9 @@ void getmatrici(int matn[][MAX],int n){
 
 }
 
-
+/*date in input due matrici come addendi, una matrice per il risultato e il numero di righe e colonne, 
+calcola la somma degli elementi che occupano la stessa posizione delle 2 matrici e le mettono nelle 
+rispettive posizioni nella terza matrice */
 void getsomma(int mat1[][MAX],int mat2[][MAX],int matsomma[][MAX],int n){
 	int j,k;	
 	for( j = 0 ;j < n ;j++){
@@ -67,7 +70,7 @@ void getsomma(int mat1[][MAX],int mat2[][MAX],int matsomma[][MAX],int n){
 	}
 }
 
-
+/*stampa a video una matrice data*/
 void stampamatrici(int matn[][MAX],int n){
 	int j,k;	
 	printf("\n");
