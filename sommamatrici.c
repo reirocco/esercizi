@@ -1,9 +1,9 @@
 /*
-Nome sorgente:	
+Nome sorgente:	sommamatrici.c
 Classe:	3BIN
-Data:		
+Data:	06/03/2018
 Funzione:	fa la somma di due matrici.	
-Commenti:l'algoritmo funziona ma va finito
+Commenti:	l'algoritmo funziona correttamente ma va reso più robusto.
 Versione n°1
 */
 
